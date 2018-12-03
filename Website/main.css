@@ -1,0 +1,235 @@
+.circleImg {
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.line{
+  height: 45px;
+  border-left: 1px solid white;
+  opacity: .7;
+
+}
+
+.homeImg{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.films{
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+.software{
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#282828), to(#282828), color-stop(50%, white));
+}
+
+.pad20 {
+    padding: 20px;
+    padding-bottom: 4px;
+}
+
+.aboutMe {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#icon {
+  max-width: 150px;
+  margin: 1% auto;
+}
+
+#core {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 1% auto;
+}
+
+.used{ 
+    width: 100%;
+    background-color: #282828;
+    padding:3%;
+    color: white;  
+}
+
+.pad{
+  margin-top: 40px;
+}
+
+.contact{
+  color:#282828;
+}
+.fa{
+  padding: 12px;
+  font-size: 35px;
+  color: white; 
+}
+
+.fa:hover{
+  color: #D5D5D5;
+  text-decoration:none;
+
+}
+.footerStyle{
+  background-color: #282828;
+  color:white;
+  padding:5%;
+}
+
+.white{
+  padding:3%;
+}
+
+
+.footerh3{
+  border:1px solid white;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#screen {
+    background-image: url(2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        justify-content: center;
+    align-items: center;
+        perspective: 2000px;
+        display: flex;
+  }
+
+#panel {
+    color: white;
+    font-family: arial;
+    text-align: center;
+ 
+    padding: 100px;
+    
+}
+
+    #name {
+        z-index: 20;
+        font-size:75px;
+        color:white;
+        letter-spacing: 10px;
+        color :#282828;
+    }
+    
+    hr {
+        border: 1px solid #282828;
+        margin: 15px;
+        
+    }
+    
+    .main {
+        z-index: 10;
+        font-size:50px;
+    }
+
+#mainbutton {
+  margin-top: 20px;
+  background-color: #282828;
+  border:none;
+  border-radius: 10px;
+  height: 70px;
+  width: 150px;
+  font-size: 20px;
+}
+
+#aspiring{
+  font-style: italic;
+  font-size: 50px;
+  color: #282828;
+}
+
+#web{
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 600px){
+  .carousel-caption{
+    padding: 0px;
+    font-size: 0px;
+  }
+
+  .circleImg{
+        border-radius: 50%;
+    height: 200px;
+    position: relative;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+ .aboutMe{
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+ 
+  .buttonErase
+ {
+  display: none;
+ }
+
+
+#panel {
+    color: white;
+    font-family: arial;
+    text-align: center;
+ 
+    padding: 100px;
+    
+}
+
+    #name {
+        z-index: 20;
+        font-size:40px;
+        color:white;
+        letter-spacing: 10px;
+        color :#282828;
+    }
+    
+    hr {
+        border: 1px solid #282828;
+        margin: 15px;
+        
+    }
+    
+    .main {
+        z-index: 10;
+        font-size:50px;
+    }
+
+#mainbutton {
+  margin-top: 20px;
+  background-color: #282828;
+  border:none;
+  border-radius: 10px;
+  height: 35px;
+  width: 75px;
+  font-size: 15px;
+}
+
+#aspiring{
+  font-style: italic;
+  font-size: 25px;
+  color: #282828;
+}
